@@ -7,7 +7,7 @@
       "price": 993,
       "discountPercentage": 12.96,
       "rating": 0,
-      "stock": 94,
+      "stock": 0,
       "brand": "Apple",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
@@ -35,7 +35,8 @@
         "https://i.dummyjson.com/data/products/2/2.jpg",
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 3,
@@ -50,7 +51,8 @@
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/3/1.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 4,
@@ -2400,9 +2402,47 @@
       "addresses": [],
       "role": "admin",
       "id": 3
+    },
+    {
+      "email": "viky914011@gmail.com",
+      "password": "Brijesh@123",
+      "addresses": [
+        {
+          "name": "brijesh",
+          "email": "viky914011@gmail.com",
+          "phone": "+919140117963",
+          "street": "village and post parsia",
+          "city": "GORAKHPUR",
+          "state": "Uttar Pradesh",
+          "pinCode": "273402"
+        }
+      ],
+      "role": "user",
+      "id": 4
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/5/1.jpg",
+        "https://i.dummyjson.com/data/products/5/2.jpg",
+        "https://i.dummyjson.com/data/products/5/3.jpg"
+      ],
+      "productId": 5,
+      "quantity": 1,
+      "user": 2,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -3099,6 +3139,63 @@
       },
       "status": "pending",
       "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "productId": 13,
+          "quantity": 1,
+          "user": 4,
+          "id": 2
+        }
+      ],
+      "totalAmount": 12,
+      "totalItems": 1,
+      "user": {
+        "email": "viky914011@gmail.com",
+        "password": "Brijesh@123",
+        "addresses": [
+          {
+            "name": "brijesh",
+            "email": "viky914011@gmail.com",
+            "phone": "+919140117963",
+            "street": "village and post parsia",
+            "city": "GORAKHPUR",
+            "state": "Uttar Pradesh",
+            "pinCode": "273402"
+          }
+        ],
+        "role": "user",
+        "id": 4
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "brijesh",
+        "email": "viky914011@gmail.com",
+        "phone": "+919140117963",
+        "street": "village and post parsia",
+        "city": "GORAKHPUR",
+        "state": "Uttar Pradesh",
+        "pinCode": "273402"
+      },
+      "status": "pending",
+      "id": 12
     }
   ]
 }
